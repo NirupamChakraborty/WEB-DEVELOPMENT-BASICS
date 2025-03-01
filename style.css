@@ -9,6 +9,7 @@ h3,h1{
 #login{
     background-color: white;
 }
+
 #signup{
     background-color: crimson;
     color: wheat;
@@ -21,4 +22,24 @@ h3,h1{
 /* descendent selector */
 p a{
     color: pink;
+    background-color: rgb(245, 245, 113);
+}
+ /* WE CAN DO IT USING CLASS ALSO 
+  .post a{
+   color: pink;
+}
+ */
+
+ /* combinators are used for siblings */
+p + h3{
+    text-decoration: underline;
+}
+
+.upvote + button{
+  
+}
+
+/* child combinator */
+div > input {
+    
 }
