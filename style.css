@@ -36,10 +36,22 @@ p + h3{
 }
 
 .upvote + button{
-  
+    background-color: rgb(25, 25, 236);
 }
 
 /* child combinator */
 div > input {
-    
+    background-color: rgb(230, 230, 55);
 }
+
+input[type="text"] {
+    color: crimson;
+}
+
+input[type="password"]{
+    color: green;
+ }
+/*
+input[type]{
+    background-color: white;
+} */
