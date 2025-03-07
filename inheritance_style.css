@@ -1,3 +1,7 @@
 div{
     height: 200px;
+    width: 500PX;
+    border: 5px solid green;
+    border-radius: 15px;
+    padding: 10px 15px;
 }
