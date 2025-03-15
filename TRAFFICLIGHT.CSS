@@ -3,3 +3,22 @@
     width: 70px;
     border: 2px solid black;
 }
+
+.inner{
+    height: 50px;
+    width: 50px;
+    border: 1px solid #000;
+    margin: 10px;
+    border-radius: 50%;
+}
+#red{
+    background-color: red;
+}
+
+#yellow{
+    background-color: yellow;
+}
+
+#green{
+    background-color: green;
+}
