@@ -1,0 +1,24 @@
+.one{
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    z-index: 1;
+}
+.two{
+    
+
+    background-color: pink ;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    bottom:50px;
+}
+
+
+
+.three{
+    background-color:crimson;
+    width: 100px;
+    height: 100px;
+}
