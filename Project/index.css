@@ -45,6 +45,7 @@ a{
 .nav-option{
     line-height:2.5rem;
     opacity: 0.7;
+    padding: 0.5rem 0.75rem;
 }
 .nav-option:hover{
    
@@ -56,5 +57,26 @@ a{
 }
 .nav-option a{
     font-size: 1rem;
-    
+    margin-left: 1rem;
+}
+
+
+.library{
+    background-color: #121212;
+    border-radius: 1rem;
+    height: 100%;
+    margin-top: 0.5rem;
+    padding: 0.5rem 0.75rem;
+
+}
+
+.options{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lib-option img{
+    height: 1.25rem;
+    width: 1.25rem;
 }
