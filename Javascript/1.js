@@ -19,5 +19,40 @@ Data types in JS
   nan + nan
 
   type of nan = number
- 
+  
+
+  OPERATOR PRECEDENCE
+  ()
+  **
+  *,/,%
+  +,-
+
+  let keyword
+  ASSIGNMENT OPERATORS
+  1.Binary op
+  +=
+  /=
+  *=
+
+  2.Unary op
+  ++
+  a++ post inc
+  ++a pre inc
+
+  value in each line
+  let num= 5; -> num =5
+  let nuwNum = num++; -> newNum =5, num=6
+  newNum= ++num; -> newNum =7 num=7
+
+
+  boolean 
+  true false
+    
+
+operators
+  arithmatic
+  comparision
+  logical
+
+
 */
