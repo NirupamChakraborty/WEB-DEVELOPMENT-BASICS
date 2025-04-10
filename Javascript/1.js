@@ -96,8 +96,8 @@ if(str[0]==='a' && str.length >= 3){
 // alert("this is an alert")
 // console.log("this is simple clg");
 // console.error("this is error msg");
-// console.warn("this is simple warning")
+console.warn("this is simple warning")
 
 // PROMPTS AND DIALOGUE BOX THAT CAN TAKE USER INPUT
-// let country=prompt("Enter a country")
-// console.log(country);
+let country=prompt("Enter a country")
+console.log(country);
