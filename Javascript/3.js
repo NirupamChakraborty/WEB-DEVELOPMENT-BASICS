@@ -43,3 +43,17 @@ console.log(ap)
 // 8. reverse
 console.log(cars.reverse());
 
+// 9. Slice ->ending index is exclusive
+cars.slice() // copy of complete array
+cars.slice(3) // index 3 till end
+cars.slice(3,7) // 3,4,5,6
+cars.slice(-1)// last index
+// 10. splice -> removes / replaces / add elements in place
+splice(start, deleteCount, item)
+cars.splice(3)
+cars.splice(1,4)
+cars.splice(0,1,"black", "grey") // one element from starting is deleted and black and grey is put there 
+
+
+
+
