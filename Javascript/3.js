@@ -53,7 +53,25 @@ splice(start, deleteCount, item)
 cars.splice(3)
 cars.splice(1,4)
 cars.splice(0,1,"black", "grey") // one element from starting is deleted and black and grey is put there 
+// 11. SORT
+console.log(cars.sort()); //alphabetially
+// // sort work good with stringsss
+// pass
+// ARRAY REFERENCE -> address in memory
+"name" == "name" //true
+"name" === "name" //true
+// [1]==[1] //false
+// [1]===[1] // false
+// []==[] //false
+// []===[] //false 
 
+// when we use const with array pass
+// we can do operations like push pop etc with it but we cannot assign it to a completely new array
+// like const arr =[1,"aman","shradha"] PASS
+// const arr = ["bhai", "rajat","gaurav"] 
+// we cant do that
 
-
-
+// NESTED ARRAYS OR MULTIDIMENTIONAL ARRAYS PASS
+let height =[[4,5],[5,6],[6,8]];
+console.log(height);
+document.display(height)
