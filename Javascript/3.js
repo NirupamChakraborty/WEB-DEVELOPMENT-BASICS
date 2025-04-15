@@ -72,6 +72,10 @@ console.log(cars.sort()); //alphabetially
 // we cant do that
 
 // NESTED ARRAYS OR MULTIDIMENTIONAL ARRAYS PASS
-let height =[[4,5],[5,6],[6,8]];
-console.log(height);
-document.display(height)
+// let height =[[4,5],[5,6],[6,8]];
+// console.log(height);
+
+ // LOOPS IN  JS
+// for(initialisation; condition; updatation){
+    // do some thing
+// }
