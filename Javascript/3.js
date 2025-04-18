@@ -79,3 +79,7 @@ console.log(cars.sort()); //alphabetially
 // for(initialisation; condition; updatation){
     // do some thing
 // }
+// PASS
+for (let i = 0; i <=569; i++) {
+    console.log(i); 
+}
