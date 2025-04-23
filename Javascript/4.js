@@ -32,3 +32,24 @@ const proton ={
   key: value
  }
 */
+const item={
+    price: 100,
+    discount: 50,
+    colors: ["green", "greenyellow"]
+};
+
+// how to get the values
+item["name"]
+// or
+item.name;
+console.log(item.name)
+
+// ADD/ UPDATE VALUE
+item.discount = 75;
+// ADD
+item.quantity;
+item.quantity =4569;
+
+// DELETE
+// delete item.quantity; not used much
+// OBJECT OF OBJECTS OR NESTING
