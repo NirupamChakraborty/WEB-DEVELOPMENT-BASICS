@@ -53,3 +53,16 @@ item.quantity =4569;
 // DELETE
 // delete item.quantity; not used much
 // OBJECT OF OBJECTS OR NESTING
+const pass = {
+    Nirupam: {
+        grade: "A",
+        location: "Jorhat"
+    },
+    Sonu: {
+        grade: "A",
+        location: "Digboi"
+    }
+};
+
+// To change Value
+pass.Sonu.location = "Lachit Nagar"
