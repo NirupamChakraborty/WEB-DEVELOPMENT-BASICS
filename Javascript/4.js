@@ -66,3 +66,45 @@ const pass = {
 
 // To change Value
 pass.Sonu.location = "Lachit Nagar"
+
+// array of objects
+
+const tshirt=[
+    {
+    size: "m",
+    color:"green"
+    },
+    {
+    size: "m",
+    color:"GREEN YELLOW"
+    }
+
+    
+];
+
+tshirt[1].size="GREEN";
+
+// Math object
+
+Math.tan();
+Math.PI
+Math.E
+Math.abs(12) //12
+Math.abs(-12) //12 gives +ve number
+pow(), floor(), ceil(), 
+random() // 0 to 1 but 1 is exclusive
+// Random intergers
+let num = Math.random()
+num =num*10;
+num = Math.floor(num)
+// in single line 
+Math.floor(Math.random() * 10); //range = 0 to 9
+
+Math.floor(Math.random() * 10) +1; //range = 1 to 10
+// we 
+// can make guess the number game
+// using random number
+
+// for range 1 to 5
+Math.floor(Math.random() * 5) +1;  // this give range 1 to 5
+
