@@ -30,3 +30,15 @@ printInfo("A", 38);
 printInfo("S", 38);
 printInfo("S", 38);
 
+// POWER FUNCTION
+function multigreet(func, count){
+    for (let i = 0; i < count; i++) {
+        func();
+    }
+}
+
+let greet = function(){
+    console.log("hello");
+
+}
+multigreet(greet, 456);
