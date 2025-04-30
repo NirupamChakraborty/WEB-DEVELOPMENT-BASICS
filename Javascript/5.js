@@ -42,3 +42,16 @@ let greet = function(){
 
 }
 multigreet(greet, 456);
+
+// THIS KEY WORD -> this keyword refers to an object thaty is executing current peice of code(like object method)
+const product={
+    name: "colgate",
+    qty: 4568,
+    price: 456,
+    availability: 99,
+    gerAvg() {
+        let avg= (this.qty+ this.price+ this.availability)/3;
+        console.log(avg)
+    }
+
+};
