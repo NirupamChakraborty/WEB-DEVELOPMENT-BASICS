@@ -55,3 +55,11 @@ const product={
     }
 
 };
+
+// TRY CATCH
+console.log("hello");
+console.log("hello");
+console.log(a); // error
+console.log("hello1567");
+console.log("hello1567");
+console.log("hello1567");
