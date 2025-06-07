@@ -63,3 +63,29 @@ console.log(a); // error
 console.log("hello1567");
 console.log("hello1567");
 console.log("hello1567");
+// IF ERROOR OCCURS IN A LINE THE BOTTOM LINES WILL NOT EXECUTES
+
+console.log("hello");
+console.log("hello");
+try{
+console.log(a); // error
+}catch{
+    console.log(" caught an error... a is not defined");
+}
+console.log("hello1567");
+console.log("hello1567");
+console.log("hello1567");
+
+// NOW WE TAKE CASE WHERE ERROR IS NOT OCCURED SO CATCH NOT EXECUTED
+
+console.log("hello");
+console.log("hello");
+let a = 4567;
+try{
+console.log(a); // error
+}catch{
+    console.log(" caught an error... a is not defined");
+}
+console.log("hello1567");
+console.log("hello1567");
+console.log("hello1567");
