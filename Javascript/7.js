@@ -52,3 +52,17 @@ let odd = nums.filter((el)=>{
     return el % 2 != 0;
 });
 console.log(odd)
+
+// 4. EVERY 
+// like logical AND 
+// returns true or false 
+// if callbck gives true for all elements then every gives true else false
+let arr5 =[3,5,7];
+arr5.every((el)=>{
+    el % 2 !=0;
+})
+
+console.log([3,5,7].every((el)=>
+        el % 2!=0
+    ));
+
