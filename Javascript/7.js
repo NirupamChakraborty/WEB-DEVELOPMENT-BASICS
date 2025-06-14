@@ -65,4 +65,18 @@ arr5.every((el)=>{
 console.log([3,5,7].every((el)=>
         el % 2!=0
     ));
+// similarly we also have SOME its like logical or it also has two values true and false 
+// 5. Reduce
+// iterable strings , arrays
+// Spread
+const arr567=[1,2,3,4,5,6,7];
+let a=Math.min(...arr567); //individual values of arrays are taken // copy
+console.log(a);
+arr567.push(567);
+console.log(a);
 
+// DESTRUCTURING 
+// Storing values of array into multiple variables
+ let names =["tony","bruce","peter","steve"];
+ let [winner, runnerup, secondRunnerup] = names;
+ console.log()
