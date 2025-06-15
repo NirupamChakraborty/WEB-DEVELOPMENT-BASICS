@@ -16,3 +16,16 @@ document.querySelector("h1");
 document.querySelector("#description");
 document.querySelector(".oldImg");
 document.querySelectorAll("div a");
+
+// MANIPULATING HTML ELEMENTS WITH DOM
+para.innerHTML ="<u>abc</u>";
+para.innerText = "abc";
+para.textContent 
+
+// to manipulate the attribute we use get and set attribute
+// obj.getAttributr(attr) 
+// obj.setAttributr(attr, value) 
+
+let img = document.querySelector("img");
+img.getAttribute("id");
+img.setAttribute("id", "spiderman");
