@@ -29,3 +29,17 @@ para.textContent
 let img = document.querySelector("img");
 img.getAttribute("id");
 img.setAttribute("id", "spiderman");
+//MANIPULATING STYLE
+let heading= document.querySelector("h1");
+heading.style;
+heading.style.color= "green";  
+let links = document.querySelectorAll(".box a");
+//for of loop
+for(link of links){
+    link.style.color = "yellow";
+}
+
+// for loop 
+// for(let i =0; i<links.length; i++){
+//     links[i].style.color = "yellow";
+// }
