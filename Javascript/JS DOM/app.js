@@ -43,3 +43,18 @@ for(link of links){
 // for(let i =0; i<links.length; i++){
 //     links[i].style.color = "yellow";
 // }
+
+// using classlist
+let heading = document .querySelector("h1");
+heading.classList
+heading.classList.add("green")
+
+// ADDING ELEMENT
+let newP = document.createElement("p");
+console.dir(newP);
+newP.innerText="hi its a pass"; 
+// add() is not vissible in the document so to insert it into the document we use append functions
+//  appendchild
+//  so if we want to append newp to the body then 
+let body = document.querySelector("body");
+body.appendChild(newP); // now newp is the child of body
