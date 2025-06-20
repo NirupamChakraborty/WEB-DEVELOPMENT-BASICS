@@ -45,7 +45,7 @@ for(link of links){
 // }
 
 // using classlist
-let heading = document .querySelector("h1");
+let heading = document.querySelector("h1");
 heading.classList
 heading.classList.add("green")
 

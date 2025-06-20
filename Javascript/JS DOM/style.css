@@ -5,6 +5,9 @@ body {
 #mainImg {
   width: 35%;
 }
+.color{
+  color: green;
+}
 
 .box {
   border: 0.25px solid black;
