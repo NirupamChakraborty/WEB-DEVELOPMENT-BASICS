@@ -58,3 +58,12 @@ newP.innerText="hi its a pass";
 //  so if we want to append newp to the body then 
 let body = document.querySelector("body");
 body.appendChild(newP); // now newp is the child of body
+newp.append("this is new text");
+newP.append(btn);
+newP.append("do not click this button")
+// we also have prepend 
+// append adds in last perpend adds in first
+newP.insertAdjacentElement("beforebegin", btn)
+// to remove we use removeChild()
+
+// practive question
