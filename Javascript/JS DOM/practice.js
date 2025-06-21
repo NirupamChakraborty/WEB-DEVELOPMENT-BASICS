@@ -25,3 +25,4 @@ div.append(para1);
 div.classList.add("box")
 
 document.querySelector("body").append(div);
+
