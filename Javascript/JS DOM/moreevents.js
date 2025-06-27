@@ -6,5 +6,9 @@ let user = document.querySelector("#user")
 user.addEventListener("change",()=>{
     console.log("input changed");
     console.log(user.value); 
-    event.preventDefault() 
+})
+
+user.addEventListener("input",()=>{
+    console.log("input changed");
+    console.log(user.value); 
 })
