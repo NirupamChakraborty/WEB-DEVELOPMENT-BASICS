@@ -1,0 +1,15 @@
+LOGIC TO BUILD THE GAME
+
+1. TO START THE GAME 
+key press -> game start -> level 1 + btn flash
+2. TO TRACK THE SEQUENCE
+gameSeq["yellow", "blue", "green",.........]
+userSeq[]
+level
+
+
+btn press{eventListeners} -> check 
+            user <-> game
+
+            check -> (same) Level up
+                  -> (not same) Game over
