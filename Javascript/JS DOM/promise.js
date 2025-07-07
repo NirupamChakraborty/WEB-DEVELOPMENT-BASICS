@@ -64,3 +64,37 @@ saveToDb("hello world")
 .catch(()=>{
     console.log("promise rejected")
 })
+
+
+// PROMISE CHAINING 
+
+saveToDb("hello world")
+.then(()=>{
+    console.log("promise fullfilled : success 1")
+    saveToDb("apna college")
+    .then(()=>{
+        console.log("saved success ")
+    })
+})
+.catch(()=>{
+    console.log("promise rejected")
+})
+
+
+// above is like nested callbck 
+// more readable code
+
+saveToDb("hello world")
+.then((result)=>{
+    console.log("promise fullfilled : success 1")
+    console.log(result)
+    return saveToDb("apna college")
+})
+.then((result)=>{
+        console.log("saved success ")
+        console.log(result)
+})
+.catch((error)=>{
+    console.log("promise rejected")
+    console.log(error)
+})
