@@ -17,6 +17,14 @@ app.get("/rolldice", (req,res)=>{
     res.render("rolldice.ejs", {num:diceValue})
 })
 
+app.get("/ig/username:", (req, res)=>{
+    const instaData = require("./data.json");
+    let { username } = req.params;
+    let data = instaData[username];
+    console.log(instaData)
+    res.render("insta.ejs", { data })
+})
+
 app.listen(port, ()=>{
     console.log("app is listening")
 })
